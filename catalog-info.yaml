@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: TestComponent
+  description: TestComponent
+  annotations: 
+    github.com/project-slug: hemantbhosale916/testBackstage
+    backstage.io/source-ref: "https://github.com/hemantbhosale916/testBackstage"
+    backstage.io/techdocs-ref: url:https://github.com/hemantbhosale916/testBackstage
+    backstage.io/github-actions-id: https://github.com/hemantbhosale916/testBackstage
+spec:
+  type: service
+  lifecycle: experimental
+  owner: hemantbhosale916
